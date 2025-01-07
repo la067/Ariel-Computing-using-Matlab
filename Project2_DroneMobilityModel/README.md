@@ -44,7 +44,7 @@ Total flying time: The time taken by the drone to travel from the origin to the 
 Running the Simulation:
 To run the mobility simulation in MATLAB, use the following command structure:
 
-*mobility(mobility_model, velocity, pausing_time, num_dummy_locations)*
+>> mobility(mobility_model, velocity, pausing_time, num_dummy_locations)
 
 Where:
 mobility_model: 0 for RWP, 1 for PPR
