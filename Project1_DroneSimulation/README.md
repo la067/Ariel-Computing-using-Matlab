@@ -44,7 +44,7 @@ This project implements a mobility model for drone path simulation using MATLAB.
 ![Snapshot 1](Project1_DroneSimulation/Snapshots/fig 1..png)
 *Figure: Number of lines is greater than velocity, both values are positive*
 
-![Snapshot 2](snapshots/snapshot2.png)
+![Snapshot 2](Project1_DroneSimulation/Snapshots/Fig 2.png)
 *Figure: Number of lines is greater than velocity, both values are positive*
 
 ![Snapshot 3](snapshots/snapshot1.png)
