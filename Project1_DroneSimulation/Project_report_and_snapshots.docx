@@ -1,4 +1,4 @@
-*** Details of what this program does:
+**Details of what this program does:**
 By breaking down the code into snippets, here is the explanation
 
 function[]=HelloDrone(number_of_lines_parameter,velocity_parameter)
