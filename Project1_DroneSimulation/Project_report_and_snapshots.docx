@@ -1,5 +1,5 @@
-## Details of what this program does:
-Ans. by breaking down the code into snippets, here is the explanation
+*** Details of what this program does:
+By breaking down the code into snippets, here is the explanation
 
 function[]=HelloDrone(number_of_lines_parameter,velocity_parameter)
 •	we defined a function HelloDrone(replaced Mobility) with 2 parameters as input 
