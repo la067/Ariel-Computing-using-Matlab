@@ -39,7 +39,9 @@ Steps to run the code:
 Copy and paste the preceding code into the MATLAB command or script window, and then hit the "Run" or "F5" key to run the function with the specified inputs. The function will depict the drones' trajectories depending on the mobility model (RWP or PPR) and the parameters supplied (drone speed, pause time, and number of dummy sites). The entire flight distance and time will also be displayed in the command window.
 Results:
 1.RWP Model: Random waypoint
- 
+
+![Fig 1.1](Snapshots/fig1.png)
+
 Fig 1.1
 The above image is implemented with inputs as La_Anc(0,2,5,0)
 Analysis:
@@ -49,14 +51,20 @@ Analysis:
 •	The fourth and last parameter is used for determining the number of dummy nodes we take between the start and destination nodes. In RWP model we don’t have dummy nodes, so we take them as 0.
 •	In the console we get Total flying distance from first start to destination including using 1989.97 meters
 •	We also get total flying time as 994.98 seconds.
- 
+
+![Fig 1.2](Snapshots/fig2.png)
+
 Fig 1.2
 The above image is implemented with inputs as La_Anc(0,3,4,0)
- 
+
+![Fig 1.3](Snapshots/fig3.png) 
+
 Fig 1.3
 The above image is implemented with inputs as La_Anc(0,5,8,0)
 2.PPR Model : Privacy- preserving Random
- 
+
+![Fig 2.1](Snapshots/fig4.png)
+
 Fig 2.1
 The above image is implemented with inputs as La_Anc(1,3,10,2)
 Analysis:
@@ -68,10 +76,13 @@ Analysis:
 •	In the console we get Total flying distance from first start to destination including using 1868.48 meters
 •	We also get total flying time as 622.82 seconds.
 
- 
+![Fig 2.2](Snapshots/fig5.png)
+
 Fig 2.2
 The above image is implemented with inputs as La_Anc(1,2,2,3)
- 
+
+![Fig 2.3](Snapshots/fig6.png)
+
 Fig 2.3
 The above image is implemented with inputs as La_Anc(1,5,1,2)
 Explanation:
