@@ -1,4 +1,4 @@
-Privacy-Preserving Drone Mobility
+## Privacy-Preserving Drone Mobility
 Simulate two simple mobility models: (i) Random Waypoint (RWP) and Privacy-Preserving Random (PPR).
 In RWP, a drone chooses a random destination within a 1,000 x 1,000 (m2) network, 2-dimensional network. The drone flies toward the destination. Upon arrival, the drone stays during a pausing time.
 Then the drone chooses another random destination within the network and flies toward the destination.
@@ -20,8 +20,6 @@ dummy locations
 • Total flying distance from the base, left and bottom of the network (0, 0)
 • Total flying time
 
-
-
 Report
 Steps to run the code:
 1.	Launch the MATLAB software on your computer.
@@ -37,14 +35,16 @@ Steps to run the code:
 •	La_anc(1, 3, 10, 2) % PPR, 3 m/s, 10 secs pausing time, two dummy locations
 
 Copy and paste the preceding code into the MATLAB command or script window, and then hit the "Run" or "F5" key to run the function with the specified inputs. The function will depict the drones' trajectories depending on the mobility model (RWP or PPR) and the parameters supplied (drone speed, pause time, and number of dummy sites). The entire flight distance and time will also be displayed in the command window.
-Results:
+
+## Results:
 1.RWP Model: Random waypoint
 
 ![Fig 1.1](Snapshots/fig1.png)
 
 Fig 1.1
 The above image is implemented with inputs as La_Anc(0,2,5,0)
-Analysis:
+
+## Analysis:
 •	The first parameter is used to select the RWP model. 
 •	The second parameter is used to select the velocity, which means the speed we assume that the drone will travel at. Here we assumed it as 2m/s. 
 •	The third parameter is used to select the time the drone will pause after reaching a location. In RWP it will be after reaching the location and before planning the next random destination. The unit of pause will be sec. here we took 5 sec as pause time.
@@ -67,7 +67,8 @@ The above image is implemented with inputs as La_Anc(0,5,8,0)
 
 Fig 2.1
 The above image is implemented with inputs as La_Anc(1,3,10,2)
-Analysis:
+
+## Analysis:
 
 •	The first parameter is used to select the PPR model. 
 •	The second parameter is used to select the velocity, which means the speed we assume that the drone will travel at. Here we assumed it as 3m/s. 
@@ -85,7 +86,8 @@ The above image is implemented with inputs as La_Anc(1,2,2,3)
 
 Fig 2.3
 The above image is implemented with inputs as La_Anc(1,5,1,2)
-Explanation:
+
+## Explanation:
 In the Random Waypoint (RWP) model, we simulate the movement of a drone in a 2D network area. The drone starts at the origin (0,0) and moves randomly within the given area. The model is designed to mimic real-life scenarios where a drone might move from one location to another in an unpredictable manner.
 Here's how the RWP model works:
 1.	We define a rectangular network area with a width and height of 1000 units.
